@@ -1,4 +1,4 @@
 shouldiblamecaching.com
 =======================
 
-Source of http://shouldiblamecaching.com/
+Source of https://shouldiblamecaching.com/
