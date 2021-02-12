@@ -16,8 +16,12 @@
 </head>
 <body>
     <section>
-        <h1>Yes<sup>1</sup></h1>
+        <h1 id='title'><sup>1</sup></h1>
         <aside><sup>1</sup>Advice may be invalid due to caching</aside>
     </section>
 </body>
 </html>
+
+<script>
+    document.getElementById('title').innerHTML += window.location.search ? 'Maybe' : 'Yes';
+</script>
